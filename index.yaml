@@ -12,6 +12,16 @@ entries:
     - https://github.com/sebagarayco/cvat-helm/releases/download/cvat-helm-0.2.4/cvat-helm-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2022-05-04T14:37:22.171677854Z"
+    description: A Helm chart for CVAT
+    digest: 27914a8a08f8ab4c8e2ad782fc17deca05eecf5ed0b0aeefe36c16f6acad1d68
+    name: cvat-helm
+    type: application
+    urls:
+    - https://github.com/sebagarayco/cvat-helm/releases/download/cvat-helm-0.2.3/cvat-helm-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
     appVersion: 2.0.0
     created: "2022-03-15T16:08:37.867957201Z"
     description: A Helm chart for CVAT
@@ -101,4 +111,4 @@ entries:
     urls:
     - https://github.com/Kapernikov/cvat-helm/releases/download/cvat-helm-0.1.1/cvat-helm-0.1.1.tgz
     version: 0.1.1
-generated: "2022-05-04T14:36:16.386560108Z"
+generated: "2022-05-04T14:37:22.17184246Z"
