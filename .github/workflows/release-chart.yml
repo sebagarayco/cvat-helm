@@ -18,7 +18,7 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "Frank Dekervel"
+          git config user.name "Seba Garayco"
           git config user.email "deploy@users.noreply.github.com"
 
       - name: Install Helm
