@@ -10,7 +10,7 @@ Features:
 See [here](charts/cvat-helm/README.md) for all configuration options
 
 ```shell
-helm repo add cvat-helm https://kapernikov.github.io/cvat-helm/
+helm repo add cvat-helm https://sebagarayco.github.io/cvat-helm/
 
 # list the versions available
 helm search repo cvat-helm
