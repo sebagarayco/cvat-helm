@@ -2,7 +2,7 @@ superUser:
   create: true
   username: admin
   initialPassword: cvat
-  email: frank@kapernikov.com
+  email: sebagarayco@gmail.com
 
 ingress:
   enabled: true
@@ -11,7 +11,7 @@ ingress:
   ingressClassName: nginx
 
 opa:
-  repository: frankdekervel/opa-cvat-rules
+  repository: sebagarayco/opa-cvat-rules
   ### if you want to use skaffold, use opa.image
   # image: opa
   #imagePullSecret: registry-creds
