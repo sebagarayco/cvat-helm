@@ -18,7 +18,8 @@ This is useful if you have other pods that need to access the CVAT API.
 * `ingress.enabled` true|false enable ingress
 * `ingress.host` the public hostname for ingress
 * `ingress.clusterIssuer` the cluster issuer for ingress
-* `ingress.ingressClassName` the ingress class name
+* `ingress.ingressClassName` the ingress class name (nginx|alb)
+* `ingress.certificateArn` the ingress AWS Certificate ARN 
 
 * `volume.createSubdir` create postgres data in a subdirectory under the volume. needed if you use block volumes. Note: once you set this value, changing it **will cause you to loose data** (as the postgres data directory will be changed).
 * `volume.storageClassName` storage class for volume
