@@ -9,6 +9,7 @@ ingress:
   host: cvat.kube-public
   clusterIssuer: selfsigned-ca-issuer
   ingressClassName: nginx
+  certificateArn: ""  
 
 opa:
   repository: sebagarayco/opa-cvat-rules
