@@ -2,8 +2,8 @@
 
 Features:
 
-* creates a superuser and store it in a secret for integration with other kubernetes resources
-* optionally uses zalando's postgres operator (see [here](zalando-pgo.md))
+- creates a superuser and store it in a secret for integration with other kubernetes resources
+- optionally uses zalando's postgres operator (see [here](zalando-pgo.md))
 
 ## Usage
 
@@ -23,6 +23,11 @@ helm install cvat cvat-helm/cvat-helm \
         --namespace='cvat' --create-namespace \
         --set superUser.initialPassword=boo \
         --set ingress.host=cvat.com \
-        --set ingress.clusterIssuer=letsencrypt-prod 
-
+        --set ingress.clusterIssuer=letsencrypt-prod
+		# optionally AWS
+        --set ingress.certificateArn="<certificate_arn>" \
+        --set ingress.cognitoEnabled="true" \
+        --set ingress.cognitoUserPool="<poolId>" \
+        --set ingress.cognitoUserPoolClient="<poolClient>" \
+        --set ingress.cognitoUserPoolDomain="<poolDomain>"
 ```
