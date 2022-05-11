@@ -24,7 +24,7 @@ helm install cvat cvat-helm/cvat-helm \
         --set superUser.initialPassword=boo \
         --set ingress.host=cvat.com \
         --set ingress.clusterIssuer=letsencrypt-prod
-		# optionally AWS
+        # optionally AWS
         --set ingress.certificateArn="<certificate_arn>" \
         --set ingress.cognitoEnabled="true" \
         --set ingress.cognitoUserPool="<poolId>" \
