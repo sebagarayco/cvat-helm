@@ -1,5 +1,7 @@
 # Simple helm chart for CVAT
 
+⚠️  Archived and moved to [https://github.com/sebagarayco/helm-charts](https://github.com/sebagarayco/helm-charts).
+
 Features:
 
 - creates a superuser and store it in a secret for integration with other kubernetes resources
